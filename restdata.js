@@ -1,5 +1,5 @@
 var countries_data ;
-const fetchPromise = fetch("http://restcountries.eu/rest/v2/all");
+const fetchPromise = fetch("https://restcountries.eu/rest/v2/all");
 fetchPromise.then(response => {
   return response.json();
 }).then(countries => {
