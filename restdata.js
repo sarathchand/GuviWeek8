@@ -41,7 +41,6 @@ para.setAttribute('id',i);
 para.innerHTML='Capital : '+ countries_data[i].capital +'<br/>'+'Region : ' + countries_data[i].region+'<br/>'+'Country Code :' + countries_data[i].alpha3Code;
 var anchor = document.createElement('a');
 anchor.setAttribute('class', 'btn btn btn-primary-outline');
-anchor.setAttribute('href','#');
 var lat = countries_data[i]["latlng"][0];
 var long = countries_data[i]["latlng"][1];
 
