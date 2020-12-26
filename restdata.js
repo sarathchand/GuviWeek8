@@ -87,7 +87,7 @@ function myFunction(lat,long,i) {
     console.log(lat);
     console.log(long);
     console.log(i);
-    var link="http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+long+"&appid=19e606f67b581be1af208a1e64c98589";
+    var link="https://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+long+"&appid=19e606f67b581be1af208a1e64c98589";
     const fetchPromise1 = fetch(link);
 fetchPromise1.then(response => {
   return response.json();
